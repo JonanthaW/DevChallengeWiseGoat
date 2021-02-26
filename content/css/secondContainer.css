@@ -1,0 +1,54 @@
+.secondContainer {
+  display: none;
+  flex-direction: column;
+}
+
+.secondContainer .phraseContent {
+  padding: 1vw 1vw 1vw 4vw;
+}
+
+.secondContainer .phraseContent h2:nth-child(1) {
+  color: #BAA193;
+  font-size: 2vw;
+}
+
+.secondContainer .phraseContent h2:nth-child(2) {
+  color: #72005F;
+  font-size: 4vw;
+}
+
+.adviceContainer {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F2EFEE;
+  width: 55vw;
+}
+
+.advice {
+  max-width: 50%;
+  padding: 2vw;
+}
+
+.advice p {
+  color: #72005F;
+  font-size: 3vw;
+  padding-left: 2vw;
+}
+
+.advice p:nth-child(2){
+  color: #BAA193;
+  font-size: 2vw;
+  text-align: right;
+}
+
+.goatimage {
+  height: 30vw;
+}
+
+.goatimage img {
+  height: 100%;
+  border-bottom-left-radius: 1vw;
+  border-top-left-radius: 1vw;
+}

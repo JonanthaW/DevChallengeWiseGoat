@@ -1,0 +1,43 @@
+.initialContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.initialContainer .phraseContent {
+  padding: 3vw;
+}
+
+.initialContainer .phraseContent h2:nth-child(1) {
+  color: #BAA193;
+  font-size: 4vw;
+}
+
+.initialContainer .phraseContent h2:nth-child(2) {
+  color: #72005F;
+  font-size: 10vw;
+  padding-bottom: 2vw;
+}
+
+.phraseContent a {
+  text-decoration: none;
+  font-size: 2vw;
+  padding: .5vw 4vw .5vw 4vw;
+  background-color: #72005F;
+  color: white;
+  border-radius: 20px;
+}
+
+.phraseContent {
+  padding-right: 5vw;
+}
+
+.initialContainer img {
+  width: 20vw;
+  animation: goatFloating 1s ease-in-out infinite alternate;
+}
+
+@keyframes goatFloating {
+  0% {margin-top: -1vw;}
+  100% {margin-top: 1vw;}
+}
