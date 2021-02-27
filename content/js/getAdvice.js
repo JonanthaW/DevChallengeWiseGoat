@@ -1,9 +1,9 @@
 var loadConfig = () => {
   const url = "https://api.adviceslip.com/advice";
-  document.querySelector(".phraseContent a").addEventListener("click", () => {
+  document.querySelector(".phraseContent a").addEventListener("click", async () => {
     document.querySelector(".initialContainer").style.display = "none";
     try {
-      fetch(url)
+      await fetch(url)
         .then(response => {
           if (!response.ok) {
             return new Error("A requisição falhou")
@@ -26,5 +26,4 @@ var loadConfig = () => {
     }
   })
 }
-
 loadConfig();
