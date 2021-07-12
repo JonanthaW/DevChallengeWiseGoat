@@ -15,5 +15,5 @@ DevChallenge template: Site gerador de conselhos.
 
 ### :bulb: Tela da aplicação
 
-![image](https://github.com/JonanthaW/Projeto-DevChallengeWiseGoat/blob/main/assets/example1.gif)
-![image](https://github.com/JonanthaW/Projeto-DevChallengeWiseGoat/blob/main/assets/example2.jpg)
+![image](https://github.com/JonanthaW/DevChallengeWiseGoat/blob/main/assets/example1.gif)
+![image](https://github.com/JonanthaW/DevChallengeWiseGoat/blob/main/assets/example2.jpg)
