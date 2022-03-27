@@ -17,3 +17,9 @@ DevChallenge template: Site gerador de conselhos.
 
 ![image](https://github.com/JonanthaW/DevChallengeWiseGoat/blob/main/assets/example1.gif)
 ![image](https://github.com/JonanthaW/DevChallengeWiseGoat/blob/main/assets/example2.jpg)
+
+### :computer: Baixando o conteúdo:
+
+```bash
+$ git clone https://github.com/JonanthaW/Arduino-Projects.git
+```
